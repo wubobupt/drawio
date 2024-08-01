@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-01T03:57:38.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="SbeyYGnAonI58oijCIFK" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-08-01T05:16:53.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="-gLHdSqcvvrEP8B2l6_z" version="24.6.4" type="github" pages="5">
   <diagram name="HARQ-ACK" id="Uc7Y426lwXYGZM6LqXw5">
     <mxGraphModel dx="786" dy="505" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -395,16 +395,29 @@
             <mxPoint x="230" y="250" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gHaXZjLqtV85odn_9_IZ-21" value="one-slot-UCI-on-PUSCH" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="265" y="215" width="180" height="30" as="geometry" />
+        <mxCell id="gHaXZjLqtV85odn_9_IZ-24" value="one-slot-UCI-on-PUSCH" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" y="160" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="gHaXZjLqtV85odn_9_IZ-22" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gHaXZjLqtV85odn_9_IZ-3" target="gHaXZjLqtV85odn_9_IZ-21">
+        <mxCell id="gHaXZjLqtV85odn_9_IZ-25" value="one-slot-PUCCH" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1,&quot;sourcePerimeterSpacing&quot;:0,&quot;targetPerimeterSpacing&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="440" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHaXZjLqtV85odn_9_IZ-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gHaXZjLqtV85odn_9_IZ-4" target="gHaXZjLqtV85odn_9_IZ-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="350" y="160" />
+              <mxPoint x="230" y="260" />
+            </Array>
+            <mxPoint x="284" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHaXZjLqtV85odn_9_IZ-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gHaXZjLqtV85odn_9_IZ-4" target="gHaXZjLqtV85odn_9_IZ-24">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="230" y="240" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="230" y="260" />
             </Array>
-            <mxPoint x="275" y="105" as="targetPoint" />
+            <mxPoint x="284" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
