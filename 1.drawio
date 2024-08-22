@@ -255,6 +255,9 @@
         <mxCell id="qPO30cR9CpujWbv8GJys-24" value="per TTI DL Rx FD Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="210" width="130" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="PmVct4jgnfHCHHhVXuHq-33" value="service request procedure/ rrc conenction resume" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="580" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
