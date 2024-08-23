@@ -410,6 +410,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="2i4rmZ3U1sUVbdKYlCB8-51" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#182E3E;fontColor=#1A1A1A;curved=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2i4rmZ3U1sUVbdKYlCB8-1" target="2i4rmZ3U1sUVbdKYlCB8-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-260" y="-50.07" as="sourcePoint" />
+            <mxPoint x="-160" y="-50.07" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-190" y="32" />
+              <mxPoint x="-190" y="-30" />
+              <mxPoint x="-100" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2i4rmZ3U1sUVbdKYlCB8-52" value="cell_reset" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBackgroundColor=none;fontColor=#1A1A1A;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-60" width="70" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
