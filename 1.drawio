@@ -585,7 +585,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nJhIbMRb0GY_XAQgCGxG" name="第 5 页">
-    <mxGraphModel dx="1426" dy="937" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1607" dy="1032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -611,7 +611,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r9TVsegAehSoBe7pa1zu-3" value="common ch config req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="r9TVsegAehSoBe7pa1zu-3" value="dedicate ch config req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-115" y="30" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9TVsegAehSoBe7pa1zu-4" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
@@ -621,7 +621,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="r9TVsegAehSoBe7pa1zu-5" value="common ch config cnf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="r9TVsegAehSoBe7pa1zu-5" value="dedicate ch config cnf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-105" y="140" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="r9TVsegAehSoBe7pa1zu-8" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fillColor=#66FF66;strokeColor=#33FF33;" edge="1" parent="1">
