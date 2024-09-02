@@ -1584,7 +1584,7 @@
           <mxGeometry x="700" y="270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="W2n5tkSTtdlRAuOzCVUI-8" value="per tti" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="120" width="50" height="30" as="geometry" />
+          <mxGeometry x="150" y="150" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wRePhcAqaJikzg5EtF2o-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="610" y="130" width="50" height="45" as="geometry" />
