@@ -1746,13 +1746,13 @@
         </mxCell>
         <mxCell id="R4DuY0NMR-X9fp731Vz1-34" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;strokeColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="398.71000000000043" y="157" as="sourcePoint" />
-            <mxPoint x="-36.71857142857133" y="157" as="targetPoint" />
+            <mxPoint x="398.71000000000043" y="149" as="sourcePoint" />
+            <mxPoint x="-36.71857142857133" y="149" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R4DuY0NMR-X9fp731Vz1-35" value="TTI tick" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="190" y="126" width="57" height="26" as="geometry" />
+        <mxCell id="R4DuY0NMR-X9fp731Vz1-35" value="slot ind per TTI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="126" width="98" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
