@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.12" pages="13">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.13" pages="13">
   <diagram name="第 1 页" id="jUbuYUa1qk6zlY3F70ON">
     <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -1830,16 +1830,6 @@
         <mxCell id="R4DuY0NMR-X9fp731Vz1-53" value="SIB1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="30" y="510" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R4DuY0NMR-X9fp731Vz1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-36.5" y="570" as="sourcePoint" />
-            <mxPoint x="-244" y="570" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-165" y="570" />
-              <mxPoint x="-244" y="571" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="R4DuY0NMR-X9fp731Vz1-55" value="BCH data ind&lt;div&gt;(SIB1)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-193" y="530" width="90" height="40" as="geometry" />
         </mxCell>
@@ -1856,18 +1846,22 @@
         <mxCell id="R4DuY0NMR-X9fp731Vz1-59" value="store config para" style="whiteSpace=wrap;html=1;fillColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="-90" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R4DuY0NMR-X9fp731Vz1-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1" target="R4DuY0NMR-X9fp731Vz1-1" source="R4DuY0NMR-X9fp731Vz1-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-35.75" y="762" as="sourcePoint" />
-            <mxPoint x="-243.25" y="762" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-164" y="762" />
-              <mxPoint x="-164" y="763" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="R4DuY0NMR-X9fp731Vz1-61" value="common channel config cnf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-224.5" y="730" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jNGItLKVw8WICVuCV08B-2" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-36.5" y="567" as="sourcePoint" />
+            <mxPoint x="-243.5" y="567" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jNGItLKVw8WICVuCV08B-3" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="-36" y="760" as="sourcePoint" />
+            <mxPoint x="-243" y="760" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
