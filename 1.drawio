@@ -1133,19 +1133,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-1" value="上行物理信道的发送优先级：&lt;span style=&quot;background-color: initial;&quot;&gt;SRS &amp;gt; PUCCH(HARQ-ACK) &amp;gt; PUCCH(SR) &amp;gt; PUCCH(CSI) &amp;gt; PUSCH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="51" y="888" width="550" height="30" as="geometry" />
+          <mxGeometry x="51" y="891" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-3" value="PUCCH(HARQ-ACK) 复用到 PUCCH(SR)，是为了保证满足发送优先级的同时，两者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="930" width="520" height="30" as="geometry" />
+          <mxGeometry x="55" y="926" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-4" value="PUCCH(HARQ-ACK) /PUCCH(SR)/PUCCH(CSI)复用到 PUSCH，是为了保证满足发送优先级的同时，多者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="55" y="970" width="640" height="30" as="geometry" />
+          <mxGeometry x="55" y="960" width="640" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-5" value="上行发送，考虑到较低的发送功率，要求较低的PAPR，普遍采用DFT-S-OFMA，同时只能发送一个物理信道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="49" y="1009" width="600" height="30" as="geometry" />
+          <mxGeometry x="49" y="858" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-6" value="PRACH比较特殊和独立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="52" y="1050" width="150" height="30" as="geometry" />
+          <mxGeometry x="53" y="989" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
