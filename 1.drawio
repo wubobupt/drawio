@@ -1925,6 +1925,9 @@
         <mxCell id="C17xlqO3B_hNA2_ermp2-10" value="pucch cnf" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="15" y="670" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="A0b3rnLMVdZzSEnIpp6h-6" value="loop with power rampup until success or prach_max_n_transmit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="-480" width="480" height="470" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
