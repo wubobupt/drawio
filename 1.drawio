@@ -1625,13 +1625,13 @@
         </mxCell>
         <mxCell id="VaInGzpn9pYPJbLEmZ3n-1" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-240.5" y="-21" as="sourcePoint" />
-            <mxPoint x="-33.5" y="-21" as="targetPoint" />
+            <mxPoint x="-240.5" y="-16" as="sourcePoint" />
+            <mxPoint x="-33.5" y="-16" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VaInGzpn9pYPJbLEmZ3n-2" value="common channel config req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="-51" width="170" height="30" as="geometry" />
+          <mxGeometry x="-220" y="-46" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VaInGzpn9pYPJbLEmZ3n-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1745,13 +1745,13 @@
         </mxCell>
         <mxCell id="9FnILMMHRLwGaJtENFKM-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="-240.5" y="891" as="sourcePoint" />
-            <mxPoint x="-33.5" y="891" as="targetPoint" />
+            <mxPoint x="-240.5" y="908" as="sourcePoint" />
+            <mxPoint x="-33.5" y="908" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9FnILMMHRLwGaJtENFKM-22" value="dedicated channel config req" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-225" y="861" width="180" height="30" as="geometry" />
+          <mxGeometry x="-225" y="878" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9FnILMMHRLwGaJtENFKM-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1927,13 +1927,7 @@
           <mxGeometry x="15" y="741" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="A0b3rnLMVdZzSEnIpp6h-6" value="loop with power rampup until success or prach_max_n_transmit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-480" width="480" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="8MK3WPWeHhk3NHhLJ392-1" value="do when got pdcch successfully" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="-167" width="480" height="217" as="geometry" />
-        </mxCell>
-        <mxCell id="8MK3WPWeHhk3NHhLJ392-2" value="parse RAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;rotation=-90;" vertex="1" parent="8MK3WPWeHhk3NHhLJ392-1">
-          <mxGeometry x="-13.25" y="145.25" width="74.5" height="32" as="geometry" />
+          <mxGeometry x="-60" y="-480" width="490" height="300" as="geometry" />
         </mxCell>
         <mxCell id="8MK3WPWeHhk3NHhLJ392-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -1947,8 +1941,11 @@
         <mxCell id="8MK3WPWeHhk3NHhLJ392-5" value="dl sch data ind&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-187.5" y="640" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8MK3WPWeHhk3NHhLJ392-8" value="msg4 transmit and re-transmit until sucess or max-n-transmit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="8MK3WPWeHhk3NHhLJ392-8" value="loop until sucess or msg4-max-n-transmit" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="350" width="690" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="8MK3WPWeHhk3NHhLJ392-2" value="parse RAR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#009900;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-74" y="-10" width="74.5" height="32" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
