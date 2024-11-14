@@ -1492,6 +1492,9 @@
             <mxPoint x="520" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9ISgfmCE7r2cfG1Mydb6-1" value="&lt;b&gt;Downlink&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-61" y="-72" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1530,8 +1533,8 @@
             <mxPoint x="720" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-21" value="POINTA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="719" y="278" width="70" height="30" as="geometry" />
+        <mxCell id="N7lSleT_3xMo4aNyVRZh-21" value="UL POINTA" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="712" y="278" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7lSleT_3xMo4aNyVRZh-22" value="" style="whiteSpace=wrap;html=1;strokeColor=#CCCC00;fillColor=#FFFF33;" vertex="1" parent="1">
           <mxGeometry x="320" y="30" width="40" height="260" as="geometry" />
@@ -1553,6 +1556,9 @@
             <mxPoint x="361.32000000000016" y="-28.40000000000009" as="sourcePoint" />
             <mxPoint x="480" y="10" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TEpe1xb9bYloYt4wmSQl-1" value="&lt;b&gt;Uplink&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="-72" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
