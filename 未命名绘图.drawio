@@ -1477,12 +1477,6 @@
         <mxCell id="4n1JWVW5Efnbsn3xDoHY-31" value="initial BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="528" y="80" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4n1JWVW5Efnbsn3xDoHY-32" value="" style="whiteSpace=wrap;html=1;strokeColor=#CCCC00;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="640" y="55" width="40" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4n1JWVW5Efnbsn3xDoHY-33" value="other BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="30" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="4n1JWVW5Efnbsn3xDoHY-35" value="&lt;b&gt;activated BWP&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="380" y="-90" width="164" height="80" as="geometry" />
         </mxCell>
@@ -1541,12 +1535,6 @@
         </mxCell>
         <mxCell id="N7lSleT_3xMo4aNyVRZh-23" value="initial BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-24" value="" style="whiteSpace=wrap;html=1;strokeColor=#CCCC00;fillColor=#FFFF33;" vertex="1" parent="1">
-          <mxGeometry x="400" y="120" width="40" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-25" value="other BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="92.5" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="N7lSleT_3xMo4aNyVRZh-26" value="&lt;b&gt;activated BWP&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="380" y="-90" width="164" height="80" as="geometry" />
