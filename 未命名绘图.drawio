@@ -1524,17 +1524,8 @@
         <mxCell id="N7lSleT_3xMo4aNyVRZh-22" value="" style="whiteSpace=wrap;html=1;strokeColor=#CCCC00;fillColor=#FFFF33;" vertex="1" parent="1">
           <mxGeometry x="320" y="30" width="40" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-23" value="initial BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="300" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-26" value="&lt;b&gt;activated BWP&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#009900;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-90" width="164" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="N7lSleT_3xMo4aNyVRZh-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.571;entryY=0.078;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.13;exitY=0.77;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="N7lSleT_3xMo4aNyVRZh-26" target="N7lSleT_3xMo4aNyVRZh-23">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="361.32000000000016" y="-28.40000000000009" as="sourcePoint" />
-            <mxPoint x="480" y="10" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="N7lSleT_3xMo4aNyVRZh-23" value="activated&amp;nbsp;BWP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TEpe1xb9bYloYt4wmSQl-1" value="&lt;b&gt;Uplink&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-70" y="-72" width="60" height="30" as="geometry" />
