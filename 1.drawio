@@ -986,7 +986,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0UsD3nf97nYf-hSxpCGN" name="物理信道的使用模式">
-    <mxGraphModel dx="1026" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1031" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1132,26 +1132,32 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DfXfnl3SRgRLye1tYEEY-1" value="上行物理信道的发送优先级：&lt;span style=&quot;background-color: initial;&quot;&gt;SRS &amp;gt; PUCCH(HARQ-ACK) &amp;gt; PUCCH(SR) &amp;gt; PUCCH(CSI) &amp;gt; PUSCH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DfXfnl3SRgRLye1tYEEY-1" value="上行物理信道的发送优先级：&lt;span style=&quot;background-color: initial;&quot;&gt;SRS &amp;gt; PUCCH(HARQ-ACK) &amp;gt; PUCCH(SR) &amp;gt; PUCCH(CSI) &amp;gt; PUSCH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="51" y="891" width="550" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DfXfnl3SRgRLye1tYEEY-3" value="PUCCH(HARQ-ACK) 复用到 PUCCH(SR)，是为了保证满足发送优先级的同时，两者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DfXfnl3SRgRLye1tYEEY-3" value="PUCCH(HARQ-ACK) 复用到 PUCCH(SR)，是为了保证满足发送优先级的同时，两者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="55" y="926" width="520" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DfXfnl3SRgRLye1tYEEY-4" value="PUCCH(HARQ-ACK) /PUCCH(SR)/PUCCH(CSI)复用到 PUSCH，是为了保证满足发送优先级的同时，多者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DfXfnl3SRgRLye1tYEEY-4" value="PUCCH(HARQ-ACK) /PUCCH(SR)/PUCCH(CSI)复用到 PUSCH，是为了保证满足发送优先级的同时，多者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="55" y="960" width="640" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DfXfnl3SRgRLye1tYEEY-5" value="上行发送，考虑到较低的发送功率，要求较低的PAPR，普遍采用DFT-S-OFMA，同时只能发送一个物理信道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DfXfnl3SRgRLye1tYEEY-5" value="上行发送，考虑到较低的发送功率，要求较低的PAPR，普遍采用DFT-S-OFMA，同时只能发送一个物理信道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="49" y="858" width="600" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DfXfnl3SRgRLye1tYEEY-6" value="PRACH比较特殊和独立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="DfXfnl3SRgRLye1tYEEY-6" value="PRACH比较特殊和独立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="53" y="989" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdRe7pnPiEbwsWpSZ48s-1" value="PDSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="241.75" y="431.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FdRe7pnPiEbwsWpSZ48s-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="218.5" y="424.75" width="15" height="44.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="by_ojlP4R0dEKOLtsp6O" name="DCI">
-    <mxGraphModel dx="2702" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2116" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
