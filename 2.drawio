@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.6" pages="5">
   <diagram name="第 1 页" id="dA4kamS1iZFP9Pa1gLe5">
     <mxGraphModel dx="862" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -336,23 +336,14 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL SS&amp;PBCH">
+  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL SS">
     <mxGraphModel dx="1034" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C4_X5BXU6zTizxzotuLk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="C4_X5BXU6zTizxzotuLk-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="80" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="350" y="80" />
-              <mxPoint x="490" y="80" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="C4_X5BXU6zTizxzotuLk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C4_X5BXU6zTizxzotuLk-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="360" as="targetPoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="C4_X5BXU6zTizxzotuLk-1" value="SS receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -367,25 +358,36 @@
         <mxCell id="C4_X5BXU6zTizxzotuLk-5" value="baseband time-domain sample" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="224" y="10" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C4_X5BXU6zTizxzotuLk-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="C4_X5BXU6zTizxzotuLk-6" target="C4_X5BXU6zTizxzotuLk-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oUGsn4H7ezFXL9zq6hDb-1" value="&lt;div&gt;slot_head_offset_in_samples&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="229" y="250" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C4_X5BXU6zTizxzotuLk-6" value="FFT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="110" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="C4_X5BXU6zTizxzotuLk-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C4_X5BXU6zTizxzotuLk-7">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pEDs_GTXsDQhSRn5u319" name="UE PHY DL PBCH">
+    <mxGraphModel dx="1034" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jpy-TUcGNYH6W2msn0on-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpy-TUcGNYH6W2msn0on-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="490" y="360" as="targetPoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C4_X5BXU6zTizxzotuLk-7" value="PBCH receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="jpy-TUcGNYH6W2msn0on-3" value="SS receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oUGsn4H7ezFXL9zq6hDb-1" value="&lt;div&gt;frame_head_offset_in_samples&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="jpy-TUcGNYH6W2msn0on-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="jpy-TUcGNYH6W2msn0on-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="40" as="sourcePoint" />
+            <mxPoint x="260" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpy-TUcGNYH6W2msn0on-5" value="baseband time-domain sample" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="224" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpy-TUcGNYH6W2msn0on-10" value="&lt;div&gt;frame_head_offset_in_samples&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="224" y="370" width="190" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="oUGsn4H7ezFXL9zq6hDb-2" value="fn_offset&lt;div&gt;MIB-CRC&lt;/div&gt;&lt;div&gt;MIB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="455" y="370" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
