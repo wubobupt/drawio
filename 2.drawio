@@ -331,7 +331,7 @@
           <mxGeometry x="280" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DQFMvhzJ5EYpet5vGo_S-24" value="fn_offset&lt;div&gt;MIB-CRC&lt;/div&gt;&lt;div&gt;MIB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="305" y="282" width="70" height="60" as="geometry" />
+          <mxGeometry x="305" y="276" width="70" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
