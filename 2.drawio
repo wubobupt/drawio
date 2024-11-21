@@ -53,7 +53,7 @@
             <mxPoint x="180" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-1" value="SS/PBCH receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-1" value="SS&amp;amp;PBCH receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-2">
@@ -169,7 +169,7 @@
             <mxPoint x="180" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4gRz050cHhQECZ5e8lxm-3" value="SS/PBCH receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4gRz050cHhQECZ5e8lxm-3" value="SS&amp;amp;PBCH receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4gRz050cHhQECZ5e8lxm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4gRz050cHhQECZ5e8lxm-5">
@@ -288,7 +288,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL SS/PBCH">
+  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL SS&amp;PBCH">
     <mxGraphModel dx="1034" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
