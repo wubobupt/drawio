@@ -373,19 +373,36 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL SS">
+  <diagram id="6XsYhwEw7TbYVL7HoBdC" name="UE PHY DL PSS">
     <mxGraphModel dx="1034" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8uHdM5ALrGfF0ggTMQP8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1hJqMujJY-00g-p-tdP-1" target="q1hJqMujJY-00g-p-tdP-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q1hJqMujJY-00g-p-tdP-1" value="PSS matched filter" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8uHdM5ALrGfF0ggTMQP8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q1hJqMujJY-00g-p-tdP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="q1hJqMujJY-00g-p-tdP-2" value="peak detection" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="q1hJqMujJY-00g-p-tdP-3" value="SSS detector" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="410" width="120" height="60" as="geometry" />
+        <mxCell id="8uHdM5ALrGfF0ggTMQP8-1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="q1hJqMujJY-00g-p-tdP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="120" as="sourcePoint" />
+            <mxPoint x="260" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4qQoMEuBDMp05hyyqZEG-1" value="baseband time-domain sample" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="90" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KMSKiZKUCCEs9LgmazI--1" value="&lt;div&gt;symb_head_offset_in_samples&lt;/div&gt;&lt;div&gt;PSS-ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="430" width="190" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
