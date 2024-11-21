@@ -46,7 +46,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-23" value="&lt;b&gt;NB 1Tx, UE 1Rx&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="490" y="-336" width="110" height="30" as="geometry" />
+          <mxGeometry x="375" y="-336" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-1" target="NX2Mk6jen8T6Z611iBAQ-16">
           <mxGeometry relative="1" as="geometry">
@@ -86,7 +86,7 @@
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-6" target="NX2Mk6jen8T6Z611iBAQ-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-6" value="RF/ADC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-6" value="RF/ADC" style="whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="120" y="-202" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-8" target="NX2Mk6jen8T6Z611iBAQ-2">
@@ -113,9 +113,6 @@
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-8" value="FFT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="-120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-15" value="antenna receive rf signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="185" y="-250" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-16" value="fn_offset&lt;div&gt;frame_head_offset_in_samples&lt;/div&gt;&lt;div&gt;MIB-CRC&lt;/div&gt;&lt;div&gt;MIB&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="85" y="275" width="190" height="70" as="geometry" />
         </mxCell>
@@ -134,20 +131,22 @@
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-25" value="baseband frequency-domain sample" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="345" y="-40" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-27" target="NX2Mk6jen8T6Z611iBAQ-6">
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#CCCCCC;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-27" target="NX2Mk6jen8T6Z611iBAQ-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-27" value="wireless channel" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-27" value="wireless channel" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="70" y="-361" width="220" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-29" target="NX2Mk6jen8T6Z611iBAQ-27">
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#CCCCCC;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-29" target="NX2Mk6jen8T6Z611iBAQ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-29" value="DAC/RF" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-510" width="120" height="60" as="geometry" />
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#666666;strokeColor=default;" edge="1" parent="1" target="NX2Mk6jen8T6Z611iBAQ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="-540" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="NX2Mk6jen8T6Z611iBAQ-31" value="antenna transmit rf signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="-420" width="160" height="30" as="geometry" />
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-29" value="DAC/RF" style="whiteSpace=wrap;html=1;strokeColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-32" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="NX2Mk6jen8T6Z611iBAQ-29">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -158,6 +157,17 @@
         </mxCell>
         <mxCell id="NX2Mk6jen8T6Z611iBAQ-33" value="NB baseband signal" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="-630" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#666666;" edge="1" parent="1" source="NX2Mk6jen8T6Z611iBAQ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-80" y="-120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NX2Mk6jen8T6Z611iBAQ-34" value="等效基带信道模型" style="whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-351" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
