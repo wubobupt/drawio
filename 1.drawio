@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6" pages="21">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6" pages="22">
   <diagram name="第 1 页" id="jUbuYUa1qk6zlY3F70ON">
     <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -2572,7 +2572,7 @@
         <mxCell id="dxisfsZPS5ES3tfGjq_3-7" value="#6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="90" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dxisfsZPS5ES3tfGjq_3-8" value="#(n_pse+2+n_pse)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="dxisfsZPS5ES3tfGjq_3-8" value="#n_pse+2+n_pse" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="100" y="90" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dxisfsZPS5ES3tfGjq_3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dxisfsZPS5ES3tfGjq_3-10" target="dxisfsZPS5ES3tfGjq_3-25" edge="1">
@@ -2602,7 +2602,7 @@
         <mxCell id="dxisfsZPS5ES3tfGjq_3-17" value="#0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="800" y="90" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dxisfsZPS5ES3tfGjq_3-19" value="&lt;div&gt;- n_data: array([ 24.,&amp;nbsp; 48.,&amp;nbsp; 48.,&amp;nbsp; 72.,&amp;nbsp; &amp;nbsp;96.,&amp;nbsp; &amp;nbsp;144.,&amp;nbsp; 144., 288.]),，输入的导频个数&lt;/div&gt;&lt;div&gt;- n_fft&amp;nbsp; &amp;nbsp; : array([ 32.,&amp;nbsp; 64.,&amp;nbsp; 64.,&amp;nbsp; 128., 128., 256.,&amp;nbsp; 256., 512.]),，指的是多少点的FFT/IFFT&lt;/div&gt;&lt;div&gt;- n_pse : array([&amp;nbsp; 4.,&amp;nbsp; &amp;nbsp;8.,&amp;nbsp; &amp;nbsp; 8.,&amp;nbsp; &amp;nbsp; 28.,&amp;nbsp; &amp;nbsp;16.,&amp;nbsp; &amp;nbsp;56.,&amp;nbsp; &amp;nbsp; 56.,&amp;nbsp; &amp;nbsp;112.]),&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- n_win : array([ 3.,&amp;nbsp; &amp;nbsp; 5.,&amp;nbsp; &amp;nbsp; &amp;nbsp;5.,&amp;nbsp; &amp;nbsp; 9.,&amp;nbsp; &amp;nbsp; &amp;nbsp;9.,&amp;nbsp; &amp;nbsp; 18.,&amp;nbsp; &amp;nbsp; 18.,&amp;nbsp; &amp;nbsp; 36.])), used for LMMSE&lt;/span&gt;&amp;nbsp;&lt;div&gt;- DE-PSE模块的delay是0，是因为他的输出数据是FFT模块的输出的中间一部分&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="dxisfsZPS5ES3tfGjq_3-19" value="&lt;div&gt;- n_pilot: array([ 24.,&amp;nbsp; 48.,&amp;nbsp; 48.,&amp;nbsp; 72.,&amp;nbsp; &amp;nbsp;96.,&amp;nbsp; &amp;nbsp;144.,&amp;nbsp; 144., 288.]),，输入的导频个数&lt;/div&gt;&lt;div&gt;- n_fft&amp;nbsp; &amp;nbsp; : array([ 32.,&amp;nbsp; 64.,&amp;nbsp; 64.,&amp;nbsp; 128., 128., 256.,&amp;nbsp; 256., 512.]),，指的是多少点的FFT/IFFT&lt;/div&gt;&lt;div&gt;- n_pse : array([&amp;nbsp; 4.,&amp;nbsp; &amp;nbsp;8.,&amp;nbsp; &amp;nbsp; 8.,&amp;nbsp; &amp;nbsp; 28.,&amp;nbsp; &amp;nbsp;16.,&amp;nbsp; &amp;nbsp;56.,&amp;nbsp; &amp;nbsp; 56.,&amp;nbsp; &amp;nbsp;112.]),&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;- n_win : array([ 3.,&amp;nbsp; &amp;nbsp; 5.,&amp;nbsp; &amp;nbsp; &amp;nbsp;5.,&amp;nbsp; &amp;nbsp; 9.,&amp;nbsp; &amp;nbsp; &amp;nbsp;9.,&amp;nbsp; &amp;nbsp; 18.,&amp;nbsp; &amp;nbsp; 18.,&amp;nbsp; &amp;nbsp; 36.])), used for LMMSE&lt;/span&gt;&amp;nbsp;&lt;div&gt;- DE-PSE模块的delay是0，是因为他的输出数据是FFT模块的输出的中间一部分&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-160" y="-30" width="500" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dxisfsZPS5ES3tfGjq_3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dxisfsZPS5ES3tfGjq_3-20" target="dxisfsZPS5ES3tfGjq_3-1" edge="1">
@@ -2948,6 +2948,76 @@
         </mxCell>
         <mxCell id="dxisfsZPS5ES3tfGjq_3-138" value="输出数据：取中间部分作为最终的输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-155" y="1710" width="230" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pdjr7zLVCZW_XZL5PYHy" name="linear_interpolation">
+    <mxGraphModel dx="1853" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2UqHhzr2QZ5Zv56RT0A-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-2" value="ram" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="220" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-3" value="#1+2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="35" y="90" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="x2UqHhzr2QZ5Zv56RT0A-5" target="x2UqHhzr2QZ5Zv56RT0A-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-5" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x2UqHhzr2QZ5Zv56RT0A-6" value="delay: in unit of CLOCK_PERIOD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7sLZX6-eEJUf9MFtmh9S-1" value="linear interpolation" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;- n_pilot: array([ 24.,&amp;nbsp; 48.,&amp;nbsp; 48.,&amp;nbsp; 72.,&amp;nbsp; &amp;nbsp;96.,&amp;nbsp; &amp;nbsp;144.,&amp;nbsp; 144., 288.]),，输入的导频个数&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="30" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-2" value="one ce coef of a pilot per clock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-165" y="210" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-3" value="#1+3*n_pilot" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-4" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=-0.05;entryY=0.467;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7sLZX6-eEJUf9MFtmh9S-1" target="q5tSTSOQrU403Zf3LQ1X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q5tSTSOQrU403Zf3LQ1X-6" value="最外侧的是最近邻插值，中间的是线性插值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="370" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-1" value="pilot0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="478" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-2" value="d1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="478" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-3" value="d2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="478" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-4" value="d3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="478" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-5" value="pilot1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="478" width="40" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-6" value="linear interpolation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6BW4zDdGZjL--wK54pZX-7" value="- d1=(pilot0*3+pilot1*1)/4&lt;div&gt;- d2=(pilot0*2+pilot1*2)/4&lt;/div&gt;&lt;div&gt;- d3=(pilot0*1+pilot1*3)/4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="540" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
