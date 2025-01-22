@@ -2553,7 +2553,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YWWwkQbdNwrr155lTB7Q" name="channel estimation">
-    <mxGraphModel dx="1853" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1907" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2572,8 +2572,8 @@
         <mxCell id="dxisfsZPS5ES3tfGjq_3-7" value="#6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="90" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dxisfsZPS5ES3tfGjq_3-8" value="#(n_pse*2+2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="110" y="90" width="100" height="30" as="geometry" />
+        <mxCell id="dxisfsZPS5ES3tfGjq_3-8" value="#(n_pse+2+n_pse)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="100" y="90" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dxisfsZPS5ES3tfGjq_3-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dxisfsZPS5ES3tfGjq_3-10" target="dxisfsZPS5ES3tfGjq_3-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
