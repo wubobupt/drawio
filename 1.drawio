@@ -2953,7 +2953,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pdjr7zLVCZW_XZL5PYHy" name="linear_interpolation">
-    <mxGraphModel dx="1853" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2065" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2999,25 +2999,25 @@
           <mxGeometry x="110" y="370" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-1" value="pilot0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="478" width="40" height="42" as="geometry" />
+          <mxGeometry x="-40" y="479" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-2" value="d1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="478" width="40" height="42" as="geometry" />
+          <mxGeometry y="479" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-3" value="d2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="478" width="40" height="42" as="geometry" />
+          <mxGeometry x="40" y="479" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-4" value="d3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="478" width="40" height="42" as="geometry" />
+          <mxGeometry x="80" y="479" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-5" value="pilot1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="478" width="40" height="42" as="geometry" />
+          <mxGeometry x="120" y="479" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-6" value="linear interpolation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="420" width="120" height="30" as="geometry" />
+          <mxGeometry x="-170" y="421" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-7" value="- d1=(pilot0*3+pilot1*1)/4&lt;div&gt;- d2=(pilot0*2+pilot1*2)/4&lt;/div&gt;&lt;div&gt;- d3=(pilot0*1+pilot1*3)/4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="540" width="160" height="60" as="geometry" />
+          <mxGeometry x="-50" y="541" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
