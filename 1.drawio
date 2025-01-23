@@ -2999,25 +2999,28 @@
           <mxGeometry x="110" y="370" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-1" value="pilot0" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="479" width="40" height="42" as="geometry" />
+          <mxGeometry x="-40" y="533" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-2" value="d1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="479" width="40" height="42" as="geometry" />
+          <mxGeometry y="533" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-3" value="d2" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="479" width="40" height="42" as="geometry" />
+          <mxGeometry x="40" y="533" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-4" value="d3" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="479" width="40" height="42" as="geometry" />
+          <mxGeometry x="80" y="533" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-5" value="pilot1" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="479" width="40" height="42" as="geometry" />
+          <mxGeometry x="120" y="533" width="40" height="42" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-6" value="linear interpolation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-170" y="421" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6BW4zDdGZjL--wK54pZX-7" value="- d1=(pilot0*3+pilot1*1)/4&lt;div&gt;- d2=(pilot0*2+pilot1*2)/4&lt;/div&gt;&lt;div&gt;- d3=(pilot0*1+pilot1*3)/4&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="541" width="160" height="60" as="geometry" />
+          <mxGeometry x="-50" y="595" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9THJ0c557xHPPGdKbFHJ-1" value="- 输入的定点格式：(1,16,13)&lt;div&gt;- 输出的定点格式：(1,16,13)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="451" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
