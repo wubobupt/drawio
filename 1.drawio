@@ -3036,9 +3036,6 @@
         <mxCell id="Mwf4lzgXVnCV5xRCB-NV-1" value="conj(h)*y" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-20" y="180" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-5" value="delay: in unit of CLOCK_PERIOD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="90" width="200" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="nslOD6KRaJl0uS3X6h7i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nslOD6KRaJl0uS3X6h7i-1" target="nslOD6KRaJl0uS3X6h7i-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
