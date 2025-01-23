@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6" pages="22">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.6" pages="23">
   <diagram name="第 1 页" id="jUbuYUa1qk6zlY3F70ON">
     <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -3021,6 +3021,34 @@
         </mxCell>
         <mxCell id="9THJ0c557xHPPGdKbFHJ-1" value="- 输入的定点格式：(1,16,13)&lt;div&gt;- 输出的定点格式：(1,16,13)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-150" y="451" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S6_HX0im7hnSUP_l0aI5" name="equalization">
+    <mxGraphModel dx="1859" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-1" value="16x16 complex multiplier" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-2" value="#6" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.244;exitY=0.542;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Mwf4lzgXVnCV5xRCB-NV-4" target="Mwf4lzgXVnCV5xRCB-NV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="239" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-4" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="229" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Mwf4lzgXVnCV5xRCB-NV-5" value="delay: in unit of CLOCK_PERIOD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nslOD6KRaJl0uS3X6h7i-1" value="16x16 multiplier" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="420" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
