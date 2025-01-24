@@ -3026,7 +3026,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="S6_HX0im7hnSUP_l0aI5" name="equalization">
-    <mxGraphModel dx="2065" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3123,8 +3123,8 @@
         <mxCell id="nslOD6KRaJl0uS3X6h7i-27" value="(1,32,26)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="120" y="600" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nslOD6KRaJl0uS3X6h7i-28" value="(1,33,26)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="203" y="400" width="70" height="30" as="geometry" />
+        <mxCell id="nslOD6KRaJl0uS3X6h7i-28" value="(1,33,26)&lt;div&gt;or&lt;/div&gt;&lt;div&gt;(0,32,26)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="378" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nslOD6KRaJl0uS3X6h7i-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nslOD6KRaJl0uS3X6h7i-29" target="nslOD6KRaJl0uS3X6h7i-8">
           <mxGeometry relative="1" as="geometry">
