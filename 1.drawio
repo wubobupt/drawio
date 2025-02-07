@@ -817,7 +817,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kmY9i5URR54D0Tp1ikCb" name="物理信道映射">
-    <mxGraphModel dx="1865" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1598" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2512,7 +2512,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YWWwkQbdNwrr155lTB7Q" name="channel estimation">
-    <mxGraphModel dx="1907" dy="1732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2425" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2907,6 +2907,66 @@
         </mxCell>
         <mxCell id="dxisfsZPS5ES3tfGjq_3-138" value="输出数据：取中间部分作为最终的输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-155" y="1710" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-1" target="B6hvjolGqKKbES6GRLmG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-1" value="频域LS信道估计" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="-400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-2" target="B6hvjolGqKKbES6GRLmG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-2" value="部分对称扩展（PSE）" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="-400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-3" target="B6hvjolGqKKbES6GRLmG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-3" value="IFFT" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="-400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-4" target="B6hvjolGqKKbES6GRLmG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-4" value="LMMSE滤波" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry y="-400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-5" value="FFT" style="whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="161" y="-400" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6hvjolGqKKbES6GRLmG-6" target="B6hvjolGqKKbES6GRLmG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-680" y="-420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="B6hvjolGqKKbES6GRLmG-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-680" y="-420" as="sourcePoint" />
+            <mxPoint x="-520" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-6" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-430" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-9" value="本地DMRS序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-450" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="B6hvjolGqKKbES6GRLmG-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-680" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-10" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+          <mxGeometry x="-690" y="-310" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B6hvjolGqKKbES6GRLmG-12" value="PDCCH DMRS Demap之后的序列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-340" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
