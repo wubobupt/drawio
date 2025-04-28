@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.9" pages="26">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0" version="26.2.15" pages="27">
   <diagram name="第 1 页" id="jUbuYUa1qk6zlY3F70ON">
     <mxGraphModel dx="1026" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -3794,6 +3794,38 @@
         </mxCell>
         <mxCell id="z_mVBvpda8ymI5ihxKug-2" value="DCI中有无效字段" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="310" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="u06A3mV0LSuhjDsFnB6v" name="第 28 页">
+    <mxGraphModel dx="1017" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="BzlpXdacqe6qixwzyRvC-1" target="BzlpXdacqe6qixwzyRvC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-3" value="Tx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-4" value="Rx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-6" value="串口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-7" value="1. 创建AT通信对象&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 发送AT命令&lt;/div&gt;&lt;div&gt;- 对对端的响应的回调函数&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BzlpXdacqe6qixwzyRvC-8" value="1. 创建AT通信对象&lt;div&gt;&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 加入轮询任务&lt;/div&gt;&lt;div&gt;- 建议5ms轮询一次，加速AT命令的处理&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="240" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
