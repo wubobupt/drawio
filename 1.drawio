@@ -3799,7 +3799,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="u06A3mV0LSuhjDsFnB6v" name="第 28 页">
-    <mxGraphModel dx="1017" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="778" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3807,25 +3807,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BzlpXdacqe6qixwzyRvC-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="200" width="80" height="60" as="geometry" />
+          <mxGeometry x="145" y="200" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BzlpXdacqe6qixwzyRvC-2" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BzlpXdacqe6qixwzyRvC-3" value="Tx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="170" width="40" height="30" as="geometry" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-3" value="Host" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BzlpXdacqe6qixwzyRvC-4" value="Rx" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="380" y="170" width="40" height="30" as="geometry" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-4" value="Device" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BzlpXdacqe6qixwzyRvC-6" value="串口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="200" width="50" height="30" as="geometry" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-6" value="串口/共享内存/Mailbox" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="225" y="200" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BzlpXdacqe6qixwzyRvC-7" value="1. 创建AT通信对象&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 发送AT命令&lt;/div&gt;&lt;div&gt;- 对对端的响应的回调函数&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="280" width="160" height="110" as="geometry" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-7" value="1. 创建AT通信对象&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 发送AT-CMD（只是被push进了&lt;/div&gt;&lt;div&gt;作业队列里）&lt;/div&gt;&lt;div&gt;- 对对端的response的回调函数&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3. 轮询任务&lt;/div&gt;&lt;div&gt;- 接收AT-CMD的response&lt;/div&gt;&lt;div&gt;- 接收URC消息&lt;/div&gt;&lt;div&gt;- 将AT-CMD真正地发送出去&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="145" y="260" width="200" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="BzlpXdacqe6qixwzyRvC-8" value="1. 创建AT通信对象&lt;div&gt;&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 加入轮询任务&lt;/div&gt;&lt;div&gt;- 建议5ms轮询一次，加速AT命令的处理&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="280" width="240" height="110" as="geometry" />
+        <mxCell id="BzlpXdacqe6qixwzyRvC-8" value="1. 创建AT通信对象&lt;div&gt;&lt;div&gt;- 数据读接口&lt;/div&gt;&lt;div&gt;- 数据写接口&lt;/div&gt;&lt;div&gt;- 接收缓冲区大小&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. 发送URC消息&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;3. 接收AT-CMD，处理并返回response&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="230" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
