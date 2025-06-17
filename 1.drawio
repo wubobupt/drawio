@@ -1526,9 +1526,6 @@
         <mxCell id="hLeX1AkQU2cEJ4s8sClF-21" value="DCH&lt;div&gt;(got RRCSetup)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4waaY9baE-a442DKHrpv-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="385" y="1688" width="50" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
