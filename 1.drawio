@@ -1218,45 +1218,11 @@
         <mxCell id="5TYqYPxh8mDnmkrdcGqo-1" value="BCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="55" y="240" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-2" value="PRACH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="142" y="898.75" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-3" value="PDCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="245" y="898.75" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="221.75" y="892" width="15" height="44.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-5" value="PDSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="346.75" y="898.75" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="323.5" y="892" width="15" height="44.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="423.5" y="892" width="15" height="44.5" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-8" value="RAR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="358.75" y="850" width="50" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.455;exitY=1.097;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5TYqYPxh8mDnmkrdcGqo-8">
-          <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="403.5" y="781.25" as="sourcePoint" />
-            <mxPoint x="381.5" y="901.25" as="targetPoint" />
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-10" value="triggered by PDCCH Order PRACH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="501" y="899.25" width="210" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="5TYqYPxh8mDnmkrdcGqo-11" value="资源状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="45" y="98" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5TYqYPxh8mDnmkrdcGqo-12" value="物理信道使用模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="98" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="5TYqYPxh8mDnmkrdcGqo-13" value="PUSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="445.25" y="898.75" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="blm9lrqNzVv_KR3KnV24-1" value="下行，PDCCH/PDSCH有可能在同一时隙" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="68" y="1118" width="240" height="30" as="geometry" />
