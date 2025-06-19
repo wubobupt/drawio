@@ -1040,12 +1040,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="0UsD3nf97nYf-hSxpCGN" name="物理信道的使用模式">
+  <diagram id="0UsD3nf97nYf-hSxpCGN" name="站在UE侧看物理信道的使用模式">
     <mxGraphModel dx="1273" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FiV2rpygr97ka0UTmEPl-1" value="IDLE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="FiV2rpygr97ka0UTmEPl-1" value="SCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="55" y="158" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-2" value="PSS/SSS/PBCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1150,23 +1150,23 @@
           <mxGeometry x="217.5" y="589.25" width="15" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-37" value="PUCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="142" y="695" width="70" height="30" as="geometry" />
+          <mxGeometry x="143" y="695" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-38" value="SR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="157" y="645" width="40" height="30" as="geometry" />
+          <mxGeometry x="158" y="645" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-39" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" parent="1" source="FiV2rpygr97ka0UTmEPl-38" target="FiV2rpygr97ka0UTmEPl-37" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
-            <mxPoint x="170" y="667" as="sourcePoint" />
-            <mxPoint x="497" y="657" as="targetPoint" />
+            <mxPoint x="171" y="667" as="sourcePoint" />
+            <mxPoint x="498" y="657" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-40" value="SRS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="143" y="765" width="50" height="30" as="geometry" />
+          <mxGeometry x="143" y="820" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-41" value="CSI-RS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="146" y="820" width="60" height="30" as="geometry" />
+          <mxGeometry x="146" y="857" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-43" value="PDCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="143" y="432" width="70" height="30" as="geometry" />
@@ -1182,25 +1182,81 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-1" value="上行物理信道的发送优先级：&lt;span style=&quot;background-color: initial;&quot;&gt;SRS &amp;gt; PUCCH(HARQ-ACK) &amp;gt; PUCCH(SR) &amp;gt; PUCCH(CSI) &amp;gt; PUSCH&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="51" y="891" width="550" height="30" as="geometry" />
+          <mxGeometry x="68" y="990" width="550" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-3" value="PUCCH(HARQ-ACK) 复用到 PUCCH(SR)，是为了保证满足发送优先级的同时，两者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="55" y="926" width="520" height="30" as="geometry" />
+          <mxGeometry x="72" y="1025" width="520" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-4" value="PUCCH(HARQ-ACK) /PUCCH(SR)/PUCCH(CSI)复用到 PUSCH，是为了保证满足发送优先级的同时，多者都能发送" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="55" y="960" width="640" height="30" as="geometry" />
+          <mxGeometry x="72" y="1059" width="640" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-5" value="上行发送，考虑到较低的发送功率，要求较低的PAPR，普遍采用DFT-S-OFMA，同时只能发送一个物理信道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="49" y="858" width="600" height="30" as="geometry" />
+          <mxGeometry x="66" y="957" width="600" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DfXfnl3SRgRLye1tYEEY-6" value="PRACH比较特殊和独立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="53" y="989" width="150" height="30" as="geometry" />
+          <mxGeometry x="70" y="1088" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FdRe7pnPiEbwsWpSZ48s-1" value="PDSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="241.75" y="431.5" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FdRe7pnPiEbwsWpSZ48s-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="218.5" y="424.75" width="15" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="K7Ty63DhSDf-Hp8l7l2e-1" value="PUCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="143" y="776" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K7Ty63DhSDf-Hp8l7l2e-2" value="CSI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="158" y="726" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K7Ty63DhSDf-Hp8l7l2e-3" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;" edge="1" parent="1" source="K7Ty63DhSDf-Hp8l7l2e-2" target="K7Ty63DhSDf-Hp8l7l2e-1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="171" y="748" as="sourcePoint" />
+            <mxPoint x="498" y="738" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-1" value="BCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="240" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-2" value="PRACH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="142" y="898.75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-3" value="PDCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="898.75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="221.75" y="892" width="15" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-5" value="PDSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="346.75" y="898.75" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-6" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="892" width="15" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="423.5" y="892" width="15" height="44.5" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-8" value="RAR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="358.75" y="850" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-9" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;exitX=0.455;exitY=1.097;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5TYqYPxh8mDnmkrdcGqo-8">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="403.5" y="781.25" as="sourcePoint" />
+            <mxPoint x="381.5" y="901.25" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-10" value="triggered by PDCCH Order PRACH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="501" y="899.25" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-11" value="资源状态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="98" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-12" value="物理信道使用模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="98" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5TYqYPxh8mDnmkrdcGqo-13" value="PUSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445.25" y="898.75" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
