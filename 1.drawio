@@ -1224,8 +1224,11 @@
         <mxCell id="5TYqYPxh8mDnmkrdcGqo-12" value="物理信道使用模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="140" y="98" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="blm9lrqNzVv_KR3KnV24-1" value="下行，PDCCH/PDSCH有可能在同一时隙" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="68" y="1118" width="240" height="30" as="geometry" />
+        <mxCell id="blm9lrqNzVv_KR3KnV24-1" value="下行，PDCCH/PDSCH有可能在同一时隙，SSB比较特殊和独立" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="927" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Rq24RefHwfaqOZ3exR50-1" value="从SCH-&amp;gt;DCH，资源阶梯增多，可以使用的物理信道模式也是叠加的，就是资源多的可以使用资源少的物理信道模式" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="887" width="640" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
