@@ -1144,10 +1144,10 @@
           <mxGeometry x="143" y="594.25" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-33" value="PUSCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="243" y="593.75" width="70" height="30" as="geometry" />
+          <mxGeometry x="244" y="593.75" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
-          <mxGeometry x="217.5" y="589.25" width="15" height="40" as="geometry" />
+          <mxGeometry x="217.88" y="588.88" width="15" height="40.75" as="geometry" />
         </mxCell>
         <mxCell id="FiV2rpygr97ka0UTmEPl-37" value="PUCCH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="143" y="695" width="70" height="30" as="geometry" />
